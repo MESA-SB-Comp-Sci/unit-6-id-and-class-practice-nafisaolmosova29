@@ -2,8 +2,10 @@
     box-sizing: border-box;
 }
 
-
-/* ─────────────────────────────────────────────
+body{
+   background-color: plum;
+}
+/*
    PART 1 — Fully Guided
    We tell you the name AND what goes inside.
    Your job: write the syntax correctly.
@@ -20,16 +22,27 @@
 /* Task 3: Write a CLASS rule called "big-border"
    It should add a border — use: 3px solid black */
 
+.pink-bg {
+    background-color:pink; 
+    border:3px color:black
+}
 
 /* Task 4: Write an ID rule called "main-title"
    It should change the background color to navy
    and the text color to white */
 
+#main-title{
+  background-color:navy;
+  color:white 
+ } 
 
 /* Task 5: Write an ID rule called "footer-text"
    It should change the text color to gray
    and the background color to black */
-
+#footer-title{
+   color:gray;
+   background-color:black; 
+}
 
 /* ─────────────────────────────────────────────
    PART 2 — Semi Guided
@@ -38,7 +51,8 @@
    Each rule must have at least:
      - background-color
      - color
-   ───────────────────────────────────────────── */
+    background-color: blue; 
+
 
 /* Task 6: Write a CLASS rule called "highlight" */
 

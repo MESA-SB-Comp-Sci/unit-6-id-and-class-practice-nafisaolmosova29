@@ -26,8 +26,9 @@ Your job is to write the syntax correctly.
 - Add a border using: `3px solid black`
 
 **Task 4** — Write an ID rule called `main-title`
-- Change the background color to navy
-- Change the text color to white
+
+
+
 
 **Task 5** — Write an ID rule called `footer-text`
 - Change the text color to gray
@@ -98,3 +99,18 @@ Try these if you finish early!
 Need help remembering how a property works? Use this reference:
 
 👉 [Full CSS Property List — W3Schools](https://www.w3schools.com/cssref/css3_pr_all.php)
+
+* 
+  box-sizing{
+  border-box;
+}
+
+
+.pink-bg {
+    background-color:pink; 
+}
+
+# main-title{
+  background-color:navy;
+  color:white 
+ } 
